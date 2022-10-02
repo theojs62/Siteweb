@@ -1,0 +1,65 @@
+#title-slogan {
+    text-align: center;
+}
+
+.texte {   
+    margin: 40px;
+}
+
+
+#hotel {
+    max-width: 35%;
+    padding-right: 20px;
+    float: left;
+}
+
+#grotte {
+    max-width: 20%;
+    padding-right: 20px;
+    float: left;
+}
+
+#gyropode {
+    max-width: 35%;
+    padding-right: 20px;
+    float: left;
+}
+
+
+
+#plongée {
+    max-width: 35%;
+    padding-right: 20px;
+    float: left;
+}
+
+
+#montgolfiere {
+    max-width: 35%;
+    padding-right: 5px;
+    float: left;
+}
+
+.evenement>div>img {
+    max-width: 400px;
+}
+
+.evenement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid #E23027 3px;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+.evenement p{
+    width: 60%;
+}
+
+.evenement:hover {
+    box-shadow: 10px 5px 5px #E23027;
+}
+

@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'RacingSansOne';
+    src: url('../polices/RacingSansOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../polices/Raleway-VariableFont_wght.ttf');
+}
+
+html, body {
+    background-color: white;
+    margin: auto;
+}
+
+body {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 1370px) {
+    header {
+        background-image: none;
+        background-color: black;
+        text-align: center;
+    }
+}
+
+nav {
+    background-color: #E23027;
+    font-size: 1.2em;
+}
+
+
+article#createurs>div.center div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article#createurs>div.center div figure {
+    border: solid #E23027 3px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+article#createurs>div.center div figure:hover {
+    box-shadow: 10px 5px 5px #E23027;
+}
+
+article#createurs>div.center div figure span {
+    font-weight: bolder;
+}
+
+article#createurs>div.center div img, article#createurs>div.center div p {
+    max-width: 15rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0rem 2rem;
+    border: solid #E23027 1px;
+    color: white;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: bolder;
+    font-family: 'Raleway';
+}
+
+nav li:hover {
+    margin: 0rem 2rem;
+    background-color: white;
+    border: solid white 1px;
+    color: black;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'RacingSansOne';
+    margin: auto;
+    visibility: hidden;
+}
+
+h2 {
+    font-family: 'Raleway';
+    color: #E23027;
+    margin: 1rem;
+}
+
+h2#title-slogan {
+    font-family: 'RacingSansOne';
+}
+
+div.center {
+    max-width: 1024px;
+    margin: auto;
+    padding: 2.2rem 0;
+}
+
+nav div.center {
+    padding: 0;
+}
+
+img#logo {
+    max-width: 10rem;
+}
+
+hr {
+    color: #E23027;
+    max-width: 500px;
+    margin: auto;
+}
+
+div.center>p {
+    margin: 1rem;
+}
+
+footer>div.center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer>div.center>div {
+    margin: 0rem 2.5rem;
+    font-size: small;
+    text-align: center;
+}
+
+div.button a {
+    margin: 1rem 1rem;
+    border: solid #E23027 1px;
+    background-color: #E23027;
+    border-radius: 15px;
+    color: white;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Raleway';
+    padding: 0.7rem;
+}
+
+div.button a:hover {
+    margin: 1rem 1rem;
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* EVENT */
+article#evenement>div>img {
+    max-width: 400px;
+}
+
+article#evenement>div.center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid #E23027 3px;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+article#evenement>div.center:hover {
+    box-shadow: 10px 5px 5px #E23027;
+}
+
+article#evenement>div.button {
+    margin: 3rem;
+    text-align: center;
+}
+
+article#evenement>div>div {
+    max-width: 500px;
+}
+
+article#evenement>div>div>p {
+    margin: 1rem;
+}
+
+/* TRAVEL EXAMPLE */
+article#exemples-voyage>div.center div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article#exemples-voyage>div.center div figure {
+    border: solid #E23027 3px;
+    text-align: center;
+    padding-bottom: 1rem;
+    max-width: 15rem;
+}
+
+article#exemples-voyage>div.center div figure:hover {
+    box-shadow: 10px 5px 5px #E23027;
+}
+
+article#exemples-voyage>div.center div figure span {
+    font-weight: bolder;
+}
+
+article#exemples-voyage>div.center div img, article#exemples-voyage>div.center div p {
+    max-width: 15rem;
+}
+
+article#exemples-voyage>div.center div p {
+    padding: 5px;
+}
+
+/* FOOTER */
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+footer div#icons {
+    text-align: center;
+    display: grid;
+}
+
+footer p#facebook, footer p#instagram, footer p#twitter, footer p#youtube {
+    grid-row: 1;
+}
+
+/* fondu */
+body { 
+    animation: fadeInAnimation ease 4s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1; 
+    } 
+    @keyframes fadeInAnimation { 
+    0% { 
+    opacity: 0; 
+    } 
+    100% { 
+    opacity: 1; 
+    } 
+}

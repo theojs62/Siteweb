@@ -1,0 +1,33 @@
+header {
+    grid-row: 1;
+}
+
+nav {
+    grid-row: 2;
+}
+
+article#slogan {
+    grid-row: 3;
+    text-align: center;
+    font-size: 2em;
+}
+
+article#qui-sommes-nous {
+    grid-row: 6;
+}
+
+article#exemples-voyage {
+    grid-row: 5;
+}
+
+article#evenement {
+    grid-row: 4;
+}
+
+article#createurs {
+    grid-row: 7;
+}
+
+footer {
+    grid-row: 8;
+}

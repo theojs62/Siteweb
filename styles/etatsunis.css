@@ -1,0 +1,48 @@
+
+/*titre*/
+h2#pays {
+    text-align: center;
+}
+
+/* image itinéraie */
+div2 > img  {
+    width: 70%;
+    margin-left: 20%;
+}
+
+/* grid element*/
+header {
+    grid-row: 1;
+}
+
+nav {
+    grid-row: 2;
+}
+
+article#pays {
+    grid-row: 3;
+}
+
+article#avis {
+    grid-row: 6;
+}
+
+article#royal{
+    grid-row: 5;
+}
+
+article#parachutisme{
+    grid-row: 4;
+}
+
+article#nage {
+    grid-row: 7;
+}
+
+footer {
+    grid-row: 8;
+}
+
+hr {
+    color:#E23027;
+}
