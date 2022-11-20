@@ -6,19 +6,16 @@ Ce projet consiste à  faire la conception d'un site web statique pour une agenc
 - En équipe de trois, Nous nous sommes réparti les tâches, il avait de la communication et de la gestion de projets en plus du développement WEB.
 
 Developpement Web : 
-- 
+- pages HTML
+- CSS
 
-
-
-
-Communication : 
- - 
+Communication et Gestion de projets : 
+ - Fiche communication
+ - Rapport 
+ - video (pub)
+ - design 
+ - FFOM
  
- 
- 
- 
- Gestion de projets : 
- -  
  
  
  
